@@ -31,12 +31,12 @@ pip install -r requirements.txt
 # Set Up Environment Variables
 Create a .env file with the following:
 
-DATABASE_URL=postgresql://username:password@azure-host/db_name;
-AZURE_STORAGE_CONNECTION_STRING="your-azure-blob-connection-string";
-EMAIL_HOST="smtp.your-email.com";
-EMAIL_USER="your-email@example.com";
-EMAIL_PASS="your-secure-password";
-SECRET_KEY="your-secret-key";
+DATABASE_URL=postgresql://username:password@azure-host/db_name  
+AZURE_STORAGE_CONNECTION_STRING="your-azure-blob-connection-string"  
+EMAIL_HOST="smtp.your-email.com"  
+EMAIL_USER="your-email@example.com"  
+EMAIL_PASS="your-secure-password"  
+SECRET_KEY="your-secret-key" 
 
 # Run the Application
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
