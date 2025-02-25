@@ -1,0 +1,14 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9  # PostgreSQL database driver
+python-dotenv==1.0.1  # For environment variable management
+passlib[bcrypt]==1.7.4  # Secure password hashing
+pyjwt==2.8.0  # JWT authentication
+azure-storage-blob==12.19.1  # Azure Blob Storage SDK
+smtplib  # Email notifications (built-in, no need to install separately)
+email-validator==2.1.1  # Validate email addresses
+requests==2.31.0  # HTTP requests for external API calls
+pandas==2.2.1  # Data handling (if needed for risk analysis)
+numpy==1.26.4  # Numerical processing
+scikit-learn==1.4.1.post1  # Machine Learning for risk assessment

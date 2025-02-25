@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Risk Assessment</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Client Risk Assessment</h1>
+
+        <h2>Check Risk Score</h2>
+        <form id="riskForm">
+            <input type="number" id="clientId" placeholder="Enter Client ID" required>
+            <button type="submit">Check Risk</button>
+        </form>
+        <p id="riskScore" class="risk-score"></p>
+
+        <h2>Upload KYC Document</h2>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="kycDocument" required>
+            <button type="submit">Upload</button>
+        </form>
+
+        <h3><a href="/clients/details">View Client Details</a></h3>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

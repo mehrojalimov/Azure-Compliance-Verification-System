@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Details</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Client Details</h1>
+
+        <h2>Client Information</h2>
+        <p><strong>Name:</strong> {{ client.name }}</p>
+        <p><strong>Risk Score:</strong> {{ client.risk_score }}</p>
+
+        <h2>KYC Documents</h2>
+        {% if client.kyc_documents %}
+            <ul>
+                {% for doc in client.kyc_documents %}
+                    <li><a href="{{ doc.url }}" target="_blank">{{ doc.filename }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No KYC documents uploaded.</p>
+        {% endif %}
+
+        <a href="/">Back to Dashboard</a>
+    </div>
+</body>
+</html>

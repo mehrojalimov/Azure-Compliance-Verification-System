@@ -1,0 +1,46 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.local
+*.log
+
+# Virtual Environment
+env/
+venv/
+*.venv
+
+# Dependency files
+*.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE & Editor files
+.vscode/
+*.swp
+*.swo
+.idea/
+*.iml
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Config and Secrets
+config.py
+*.json
+secrets.json
+azure_keys.json
+
+# Database
+*.sqlite3
+db.sqlite3
+instance/
+
+# Containers
+Dockerfile
+docker-compose.yml
+*.tar
