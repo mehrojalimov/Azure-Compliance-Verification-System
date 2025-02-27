@@ -4,7 +4,7 @@ A **Costumer Due Diligence (CDD) solution** built with **FastAPI** and **Azure**
 
 ## 📌 Features
 ✔️ **Client Risk Profiling** – Assigns risk scores based on financial & background data.  
-✔️ **KYC Document Upload** – Securely stores client verification documents on **Azure Blob Storage**.  
+✔️ **CDD Document Upload** – Securely stores client verification documents on **Azure Blob Storage**.  
 ✔️ **Automated Compliance Checks** – Evaluates risk using **machine learning** and predefined rules.  
 ✔️ **User Authentication** – Secure login for compliance officers using **bcrypt** encryption.  
 ✔️ **Email Notifications** – Sends updates about risk evaluations & compliance status.  
