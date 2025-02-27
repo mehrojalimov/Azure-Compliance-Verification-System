@@ -1,6 +1,6 @@
 # Automated Client Risk Assessment Tool
 
-A **KYC/AML compliance solution** built with **FastAPI** and **Azure**, designed to streamline client risk assessment, automate document processing, and ensure regulatory compliance.
+A **Costumer Due Diligence (CDD) solution** built with **FastAPI** and **Azure**, designed to streamline client risk assessment, automate document processing, and ensure regulatory compliance.
 
 ## 📌 Features
 ✔️ **Client Risk Profiling** – Assigns risk scores based on financial & background data.  
